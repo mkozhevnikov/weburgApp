@@ -19,6 +19,8 @@
   ],
   "dependencies": {
     "jquery": "^3.2.1",
-    "knockout": "^3.4.2"
+    "knockout": "^3.4.2",
+    "bootstrap": "^3.3.7",
+    "bootstrap-table": "^1.11.1"
   }
 }

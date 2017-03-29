@@ -1,10 +1,8 @@
 extends layout
 
 block content
-  h1(data-bind='text: title')= title
-  div(data-bind='foreach: torrents')
-    .well
-      span(data-bind='text: name')
-  script(src='/js/index.js', type='text/javascript')
-
-    
+  table#grid(data-toggle="table", data-url='/torrents')
+    thead
+      tr
+        th(data-field='name') File name
+  
